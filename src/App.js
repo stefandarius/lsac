@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Toolbar from './components/Toolbar/Toolbar';
+import classes from './App.css';
+import ContentPrincipal from "./components/ContentPrincipal/ContentPrincipal";
+import GreenSection from "./components/GreenSection/GreenSection";
+import Formular from "./components/Formular/Formular";
+import SocialMedia from "./components/SocialMedia/SocialMedia";
+import Backdrop from "./components/Overlay/Backdrop/Backdrop";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => (
+    <div className={classes.App}>
+        <Backdrop />
+        <Toolbar />
+        <ContentPrincipal />
+        <GreenSection />
+        <Formular />
+        <SocialMedia />
     </div>
-  );
-}
+);
 
 export default App;

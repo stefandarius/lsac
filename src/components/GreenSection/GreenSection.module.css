@@ -1,0 +1,66 @@
+.section {
+    width: 100%;
+    background: #92E3A9;
+    top: 100%;
+    margin-top: 100px;
+}
+
+.heading {
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 121.1%;
+    text-align: center;
+    color: #263238;
+    padding: 20px;
+}
+
+.text {
+    font-family: 'Roboto', Georgia, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-block;
+    width: 200px;
+    color: #263238;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.steps {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.step {
+    display: inline-block;
+    font-family: 'Roboto', Georgia, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #263238;
+    width: 300px;
+    margin: 0 20px;
+    text-align: left;
+}
+
+
+@media (max-width: 1050px) {
+    .step {
+        display: flex;
+        width: 80%;
+        margin: 10px 50px;
+    }
+
+    .steps {
+        width: 80%;
+    }
+
+    .text {
+        width: 80%;
+    }
+}

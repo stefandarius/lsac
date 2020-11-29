@@ -1,0 +1,169 @@
+.Content {
+    width: 100%;
+    vertical-align: top;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.boldDialog {
+    width: 570px;
+    margin: 10px 0;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 121.1%;
+
+    color: #263238;
+}
+
+.smallText {
+    width: 535px;
+    margin: 10px 0;
+    font-family: 'Roboto', Georgia, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    color: #263238;
+}
+
+.text {
+    width: 40%;
+    margin-left: 104px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    height: 100%;
+    text-align: left;
+}
+
+.svg {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 60px;
+    width: 100%;
+}
+
+
+.blackButton {
+    background: #263238;
+    border-radius: 5px;
+    font-family: 'Merriweather', Georgie, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #92E3A9;
+    display: inline-block;
+    height: 40px;
+    vertical-align: top;
+    text-align: center;
+    padding: 0 20px;
+    margin-right: 30px;
+}
+
+.greenButton {
+    background: #92E3A9;
+    border-radius: 5px;
+    font-family: 'Merriweather', Georgie, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #263238;
+    display: inline-block;
+    height: 40px;
+    vertical-align: top;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.greenButton:hover, .blackButton:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .text {
+        width: 50%;
+    }
+
+    .svg {
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .text {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .boldDialog {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .smallText {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .svg {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .buttons {
+        width: 60%;
+        margin: 10px auto;
+    }
+
+    .blackButton {
+        width: 100%;
+    }
+
+    .greenButton {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .text {
+        width: 80%;
+        display: contents;
+    }
+
+    .svg {
+        width: 100%;
+
+    }
+
+    .boldDialog {
+        width: 80%;
+    }
+
+    .smallText {
+        width: 80%;
+    }
+
+    .greenButton {
+        width: 100%;
+        height: 50px;
+    }
+
+    .blackButton {
+        width: 100%;
+        height: 50px;
+    }
+}

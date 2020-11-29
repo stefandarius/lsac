@@ -1,0 +1,18 @@
+.content {
+    width: 100%;
+    background: #263238;
+    text-align: center;
+    margin-bottom: -15px;
+    bottom: 0;
+}
+
+.text {
+    font-family: 'Merriweather', Georgie, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 121.1%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+}

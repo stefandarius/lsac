@@ -1,0 +1,80 @@
+.Toolbar {
+    margin-bottom: 10px;
+}
+
+.title {
+    width: 185px;
+    height: 61px;
+    margin-left: 104px;
+    margin-top: 69px;
+    display: inline-block;
+}
+
+.buttons {
+    width: 400px;
+    height: 40px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 69px;
+    display: inline-block;
+}
+
+.toggle {
+    visibility: hidden;
+    float: right;
+    margin-right: 20px;
+    margin-top: 69px;
+    display: flex;
+}
+
+.loginButton {
+    background: #263238;
+    border-radius: 5px;
+    font-family: 'Merriweather', Georgie, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 20px;
+    padding: 10px;
+    color: #92E3A9;
+}
+
+.transparentButton {
+    background: #00000000;
+    font-family: 'Merriweather', Georgia, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0 20px;
+    padding: 10px;
+    color: #263238;
+    border: none;
+}
+
+.transparentButton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .buttons {
+        visibility: hidden;
+    }
+
+    .toggle {
+        visibility: visible;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+
+    .title {
+        margin-left: 40px;
+    }
+
+}

@@ -14,8 +14,12 @@ const Modal = () => {
 
     const clicked = e => {
         e.preventDefault();
-        setPlangeri([...plangeri, {materie, proiect}]);
-        setProiect('');
+        if (!proiect) {
+            alert("Completati un nume de proiect!");
+        } else {
+            setPlangeri([...plangeri, {materie, proiect}]);
+            setProiect('');
+        }
     }
 
     return(

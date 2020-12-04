@@ -1,3 +1,7 @@
+Am lucrat in React.js, folosind in mare parte stateless components pentru elementele de prezentare, si statefull pentru Modal. Am manageriat state-ul global folosint ContextAPI, Redux fiind putin cam overkill pentru acest site.
+
+Din pacate nu am reusti sa dau deploy pe GithubPages.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
